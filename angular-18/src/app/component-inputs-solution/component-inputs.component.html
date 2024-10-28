@@ -1,0 +1,22 @@
+<section>
+  <div>
+    <input
+      [ngModel]="childData.title"
+      (ngModelChange)="onTitleChanged($event)"
+      type="text"
+    />
+  </div>
+  <div>
+    <textarea
+      [ngModel]="childData.content"
+      (ngModelChange)="onContentChanged($event)"
+    ></textarea>
+  </div>
+</section>
+<section>
+  <div>{{ childData.title }}</div>
+  <div>{{ childData.content }}</div>
+</section>
+<section>
+  <app-child [content]="childData"></app-child>
+</section>
