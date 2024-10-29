@@ -1,6 +1,6 @@
 # Aufgabe
 
-0. Pakete installieren: Löschen Sie die Datei package-lock.json und installieren Sie die npm-Pakete neu.
+0. Installieren Sie die npm-Pakete.
    >> npm i(nstall)
 1. Routing: Passen Sie die Routingkonfiguration der Anwendung so an, dass ComponentInputsComponent unter der Standardroute ('') angezeigt wird. Verwenden Sie Lazy Loading, d.h. die Komponente soll nur dann geladen werden, wenn sie auch tatsächlich über die Route aktiviert wird.
    ```
