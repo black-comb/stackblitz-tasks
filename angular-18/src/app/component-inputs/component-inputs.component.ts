@@ -3,7 +3,7 @@ import {
   Component
 } from '@angular/core';
 
-import { ChildData } from './types/child-input';
+import { ChildData } from './types/child-data';
 
 @Component({
   selector: 'app-component-inputs',
